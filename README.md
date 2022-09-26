@@ -10,5 +10,5 @@
 ## Example usage
 - will flip POE to all the EZTV endpoints on switch at IP 172.25.1.32
 `python3 ./poe_flipper.py -t eztv -s 172.25.1.32`
-- does a "dry run" on dante endpoints across all of BDS `python3 ./poe_flipper.py -d -t dante`
+- does a "dry run" on dante endpoints across all of BDS `python3 ./poe_flipper.py -d -t dante -v BDS`
 - use a custom mac address prefix `python3 `./poe_flipper.py -m de:ad:be:ef -s 192.168.1.2
