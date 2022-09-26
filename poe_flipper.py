@@ -185,7 +185,7 @@ def main(argv):
         dryrun = False
 
     if "keyLocation" not in locals():
-        keyLocation = "/home/tyler/.ssh/ida_rsa-copy"
+        keyLocation = "~/.ssh/ida_rsa-copy"
 
     if "venue" in locals():
         if (
